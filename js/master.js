@@ -253,10 +253,6 @@ Game.waitAssets = function () {
 };
 
 Game.init = function () {
-    //document.addEventListener('contextmenu', function (event) {
-    //    event.preventDefault();
-    //});
-
     Keyboard.init();
     Mouse.init("myCanvas");
 
@@ -742,10 +738,7 @@ Game.draw = function () {
 
         //Printer.drawRect(context, 690, 520, 400, 40, "yellow");
         Printer.drawText(context, "ABOUT", 700, 550, "20px arial", "white");
-        //Printer.drawText(context, "Programming: Gabriel Spina", 10, 530, "20px arial", "white");
-        //Printer.drawText(context, "Game Design: Ricardo Cruz", 10, 570, "20px arial", "white");
     }
 };
 
-//Game.init();
 Game.loadAssets();
