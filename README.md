@@ -1,3 +1,8 @@
-# js13k-2017
+# The Game (js13k entrie)
 
-The Game (js13k entrie)
+Post changes - js13k:
+---
+
+- [ ] Interface: adjustments and improvements
+- [ ] Frame-rate adjustment
+- [ ] Code refactoring
